@@ -1,6 +1,6 @@
 # this command will show the long listing of the /dev/vda device file on a server
 ls -l /dev/vda
-# brw-rw----, 1 root disk 253, 0 Mar 13 08:00 /dev/vda
+
 
 # this command will show all the device files and mount points on a server
 df
