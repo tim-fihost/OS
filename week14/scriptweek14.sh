@@ -26,6 +26,4 @@ mount UUID="[UUID]" /mnt/mydata
 # unmounting requires the mount point as an argument
 unmount /mnt/mydata
 
-# unmounting requires the file system to be free of any usage or returns an error
-# this command shows all open files and the processes accessing the file system to be unmounted
 lsof /mnt/mydata
